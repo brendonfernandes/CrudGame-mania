@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: 280px;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+}
+
+.carrinho img {
+    width: 80px;
+    height: 70px;
+}
+
+.iniciar a {
+    float: right;
+    background-color: #83BEC1;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.logo img {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+
+/* menu barras*/
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav-list li {
+    letter-spacing: 2px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 6px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+
+/* campo pesquisa */
+
+#campo-pesquisa {
+    border: none;
+    height: 30px;
+    width: 50vh;
+}
+
+.button img {
+    width: 10px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    padding: 3px;
+    width: 5vh;
+}
+
+.CampoPesquisa {
+    border-radius: 9%;
+}
+
+.campo-input {
+    height: 60px;
+    letter-spacing: -5px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

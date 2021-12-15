@@ -1,0 +1,45 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+</style>
+
+<body>
+    <main>
+        <div class="iniciar-secão">
+            <div id="main-container">
+                <h1>Cadastre-se para acessar o sistema</h1>
+                <form action="" id="register-form">
+                    <div class="full-box1">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="" required>
+                    </div>
+                    <div class="half-box spacing">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome" data-min-length="">
+                    </div>
+                    <div class="half-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" data-min-length="">
+                    </div>
+                    <div class="half-box spacing">
+                        <label for="pasword">Senha</label>
+                        <input type="password" name="pasword" id="pasword" placeholder="Digite sua Senha" required>
+                    </div>
+                    <div class="half-box">
+                        <label for="pasconfirmation">Senha</label>
+                        <input type="password" name="pasconfirmation" id="pasconfirmation" placeholder="Confrime sua Senha" required>
+                    </div>
+                    <div class="full-box">
+                        <label for="agreement" id="agreement-label">Eu li e aceito os <a class="termo" href="#"> termos de uso </a></label>
+                        <input type="checkbox" name="agreement" id="agreement" required>
+
+                    </div>
+                    <div class="full-box">
+
+                        <input onclick="minhaFuncao()" type="submit" id="btn-submit" name="botton">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p class="error-validation template"></p>
+    </main>
+</body>

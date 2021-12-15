@@ -1,0 +1,95 @@
+<app-header></app-header>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+</style>
+<div class="color"></div>
+<!-- carrossel -->
+
+<div class="fundo-banner">
+    <h1>Lançamentos</h1>
+</div>
+
+<div id="carrossel">
+    <img src="assets/banner-good of war.jpg" alt="Banner do jogo god of war">
+</div>
+
+<div class="color"></div>
+<!-- jogos-black friday -->
+
+<div class="fundo">
+    <div class="black-friday"><img src="assets/black-friday.png" alt="banner black friday"></div>
+</div>
+
+<div class="color">
+</div>
+
+<section class="promocao">
+    <div class="espaco">
+        <div id="espaco-jogos" class="image-seção">
+            <!--  -->
+            <div *ngFor="let promocao of listaPromocoes" class="imageContainer">
+                <img src=" assets/the last of us.jpeg " alt="jogo the last of us " />
+                <a href="# ">comprar</a> >
+                <!-- <h1> {{promoção.titulo}}</h1>
+                    <p>{{promoção.descricao}}</p> -->
+            </div>
+
+            <!-- <div class=" imageContainer ">
+                <img src="assets/mortal kombat.jpeg " alt="imagem jogo mortal kombat " />
+                <a href="compras/compra.html ">comprar</a>
+            </div>
+            <div class="imageContainer ">
+                <img src="assets/the last of us.jpeg " alt="jogo the last of us " />
+                <a href="# ">comprar</a>
+            </div>
+            <div class="imageContainer ">
+                <img src="assets/uncharted.jpeg " alt="jogo uncharted " />
+                <a href="# ">comprar</a>
+            </div>
+            <div class="imageContainer ">
+                <img src="assets/spider-man.jpg " alt="jogo spider man " />
+                <a href="# ">comprar</a>
+            </div>
+            <div class="imageContainer ">
+                <img src="assets/resident evil.jpeg " alt="jogo resident evil " />
+                <a href="# ">comprar</a>
+            </div>
+            <div class="imageContainer ">
+                <img src="assets/god of war.jpeg " alt="jogo goo of war " />
+                <a href="# ">comprar</a>
+            </div> -->
+        </div>
+    </div>
+</section>
+<div class="color "></div>
+<!-- opçoes-steam -->
+<div class="steam ">
+    <h1>procurar no steam</h1>
+    <nav class="opções-steam ">
+        <div class="opções ">
+            <a href=" ">Jogos grátis</a>
+        </div>
+        <div class="opções ">
+            <a href="transmissões/transmiçoes.html ">Novidades</a>
+        </div>
+        <div class="opções ">
+            <a href="eletronicos/eletronicos.html ">Eletrônicos</a>
+        </div>
+    </nav>
+</div>
+<nav>
+
+    <div class="color "></div>
+    <div class="remomendaçoes ">
+        <div class="iniciar-320 ">
+            <p>Á procura de recomendações ?</p>
+            <h1>inicia a seção para ver recomendações personalizadas</h1>
+        </div>
+        <div class="iniciar-seção ">
+            <a href="iniciar.html ">iniciar sessão</a>
+        </div>
+    </div>
+
+    <div class="color "></div>
+</nav>
+<app-footer></app-footer>

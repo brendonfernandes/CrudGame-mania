@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* banner e carossel*/
+
+.fundo-banner {
+    background-color: black;
+    height: 100px;
+}
+
+.fundo-banner h1 {
+    float: left;
+    font-family: 'Comforter', 'cursive';
+    text-decoration: underline;
+    color: white;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+#carrossel img {
+    height: 46vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    /* width: 216vh */
+}
+
+#carrossel {
+    height: 628px;
+}
+
+.fundo {
+    height: 315px;
+    background-color: black;
+}
+
+.color {
+    background-color: rgb(225, 5, 5);
+    height: 3px;
+}
+
+
+/*secão jogos black friday*/
+
+.black-friday {
+    display: flex;
+    justify-content: center;
+}
+
+#espaco-jogos {
+    align-items: center;
+    display: flex;
+    /* padding: 20px; */
+    justify-content: space-between;
+    background-color: black;
+}
+
+.jogos img {
+    width: 150px;
+    height: 204px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imageContainer a {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+
+/*opções do steam*/
+
+.opções {
+    width: 133vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opções-steam {
+    justify-content: space-between;
+    display: flex;
+    width: 100vw;
+}
+
+.remomendaçoes {
+    display: none;
+}
+
+.steam {
+    background-color: black;
+    height: 150px;
+    display: grid;
+}
+
+.steam a {
+    text-transform: uppercase;
+    background-color: #83BEC1;
+    border-radius: 5px;
+    padding: 9px;
+    height: 20px;
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.steam h1 {
+    float: left;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Comforter', 'cursive';
+    font-size: 2.5em;
+}
