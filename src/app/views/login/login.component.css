@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.campo-label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(2, 1, 1);
+    width: 100vw;
+    height: 100vw;
+    padding: top 40px;
+}
+
+.bloco2 {
+    width: 100vh;
+    height: 50vh;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+.bloco1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+input[type="password" i] {
+    width: 60vh;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+input[type="email" i] {
+    border-radius: 3px;
+    padding: 8px;
+    width: 60vh;
+}
+
+#login {
+    width: 40vh;
+    padding: 5px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+.botaoiniciar {
+    display: flex;
+    flex-direction: column;
+    width: 65vh;
+    height: 10vh;
+    align-items: center;
+    padding: 10px;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: underline blue;
+    color: blue;
+    padding: 10px;
+}
+
+.error-validação {
+    color: red;
+    font-size: 1em;
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+}

@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   listaPromocoes = [] as Promocao[];
   promocaoForm = {
   titulo: "promoção extra",
-  descrição: " descrição da promoção extra"
+  descrição: " descrição da promoção extra",
 }
 
 constructor(private promocaoService: promocaoService) {}
@@ -30,7 +30,19 @@ carregarPromocoes(){
   salvarPromoção() {
   this.promocaoService.postPromocao(this.promocaoForm).subscribe( () => {
   this.carregarPromocoes();
-} )
-  }
+  })
+  
+// } )
+//   }
+//   deletarPromocao() {
+//     this.promocaoService.deletePromocao().subscribe ( () =>{
+//     this.deletarPromocao();
+//     })
 
+  
+  // atualizarPromocao() {
+  //   this.promocaoService.putPromocao()
+  // }
+
+  }
 }

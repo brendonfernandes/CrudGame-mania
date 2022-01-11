@@ -54,14 +54,12 @@
 #espaco-jogos {
     align-items: center;
     display: flex;
-    /* padding: 20px; */
     justify-content: space-between;
     background-color: black;
 }
 
-.jogos img {
-    width: 150px;
-    height: 204px;
+.espaco {
+    width: 99vw;
 }
 
 .imageContainer {

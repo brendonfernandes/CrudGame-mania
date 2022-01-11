@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './views/header/header.component';
 import { FooterComponent } from './views/footer/footer.component';
-import { IniciarComponent } from './views/iniciar/iniciar.component';
+import { CadastroComponent} from './views/cadastro/cadastro.component';
+import { LoginComponent } from './views/login/login.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +19,16 @@ import { IniciarComponent } from './views/iniciar/iniciar.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    IniciarComponent
+    CadastroComponent,
+    LoginComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-
+    HttpClientModule,
+    FormsModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

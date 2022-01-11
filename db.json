@@ -1,5 +1,12 @@
 {
-  "imageContainer": [
+  "users": [
+    {
+      "email": "Barbara@lorrane",
+      "password": "$2a$10$mTjYdeLB620gora2X03e3evOVtKCeXqsrzOcOWINxRus.DpAWD42e",
+      "id": 1
+    }
+  ],
+  "promocao": [
     {
       "id": 1,
       "titulo": "valor1",
@@ -49,12 +56,24 @@
       "titulo": "valor9",
       "descrição": "descrição da imagem 9",
       "id": 10
+    },
+    {
+      "titulo": "valor9",
+      "descrição": "descrição da imagem 9",
+      "id": 11
+    },
+    {
+      "titulo": "valor9",
+      "descrição": "descrição da imagem 9",
+      "id": 12
     }
   ],
-  "usuarios": [
+  "Cadastro": [
     {
       "id": 1,
-      "nome": "Brendon"
+      "nome": "Brendon",
+      "senha": "12345678",
+      "email": "Brendo@123.com"
     }
   ]
 }

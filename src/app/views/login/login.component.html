@@ -1,0 +1,26 @@
+<main>
+    <div class="bloco1">
+
+        <div class="bloco2">
+
+            <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                <div class="campo-label">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ex.: email@email.com" [(ngModel)]="loginModel.email" equired>
+                </div>
+                <div class="campo-label">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="password" id="senha" placeholder="Sua senha aqui..." [(ngModel)]="loginModel.password" required>
+                </div>
+                <div class="botaoiniciar">
+                    <button id="login" type=" submit ">Fazer Login</button>
+                    <a class="cadastro" routerLink="Cadastro">Cadastrar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="error-validação">
+        <p *ngIf="mensagem != '' ">{{mensagem}}</p>
+    </div>
+
+</main>

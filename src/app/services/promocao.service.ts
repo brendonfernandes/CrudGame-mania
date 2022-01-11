@@ -9,7 +9,7 @@ import { Promocao } from '../models/promocao';
 export class promocaoService {
   // VARIAVEL Criada para armazenar o endereço da API
 
-  url = "http://localhost:3000/imageContainer"
+  url = "http://localhost:3000/promocao"
 
   // INJEÇÃO DE DEPENDENCIA HttpClient
 
