@@ -1,8 +1,7 @@
 export interface Cadastro {
     id?:number;
     usuario?: string;
-    senha?: string;
+    password?: string;
     email?: string
     nome?: string
-    sobrenome?: string
 }

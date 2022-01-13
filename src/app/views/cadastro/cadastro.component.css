@@ -10,7 +10,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 310vw;
-    height: 100vh;
 }
 
 #agreement-label a {

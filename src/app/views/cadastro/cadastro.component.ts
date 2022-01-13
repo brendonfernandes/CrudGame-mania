@@ -4,6 +4,7 @@ import { CadastroService } from 'src/app/services/cadastro.service';
 import { Router } from '@angular/router';
 
 
+
 @Component({
   selector: 'app-cadastro',
   templateUrl: './cadastro.component.html',
@@ -19,11 +20,13 @@ export class CadastroComponent implements OnInit {
   ngOnInit(): void {
 
   }
+  mensagem = "" ;
   
 
+
   createCadastro(): void{
-    this.cadastroService.create(this.cadastro).subscribe (() =>{
-      this.cadastroService.showMessege('Usuário Cadastrado!')
+    this.cadastroService.create(this.cadastro).subscribe ((response) =>{
+      this.mensagem = "Usuário Cadastrado!"
     })
   }
   deletarCadastro(): void{
@@ -32,6 +35,7 @@ export class CadastroComponent implements OnInit {
   tabelasCadastro(): void{
     this.router.navigate(['/cadastro/tabela'])
   }
+
 }
 
 

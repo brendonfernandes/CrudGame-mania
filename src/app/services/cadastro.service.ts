@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class CadastroService {
 
-  baseUrl = "http:localhost:3001/Cadastro"
+  baseUrl = "http://localhost:3000/login"
 
   constructor(private http: HttpClient) { }
   showMessege(msg: string): void{

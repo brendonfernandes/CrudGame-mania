@@ -17,12 +17,24 @@ export class LoginComponent implements OnInit {
   mensagem = "" ;
 
   onSubmit() {
+   
+   const listaPalavras: string[] = ["select ", "from ", "drop ", "or ", "having ", "group ", "by ", "insert ", "exec ", "\"", "\'", "--", "#", "*", ";"]
+    
+    listaPalavras.forEach(palavra => {
+    if(this.loginModel.email?.toLocaleLowerCase().includes(palavra)){
+      this.mensagem = "Hum.. tentando inserir um injection kk" + palavra
+
+      return;
+    }
+      
+    });
     this.loginService.login(this.loginModel).subscribe( (response) => {
       this.mensagem= "Login com sucesso!";
-      this.router.navigateByUrl('/')
+      this.router.navigateByUrl('/home');
+
     }, (error) => {
-      console.log(error)
       this.mensagem = error.error;
     } )
+    
   }
 }

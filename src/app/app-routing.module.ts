@@ -7,8 +7,8 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
 
 
 const routes: Routes = [
-  { path: "", component: HomeComponent},
-  { path: "login", component: LoginComponent},
+  { path: "", component: LoginComponent},
+  { path: "home", component: HomeComponent},
   { path: "cadastro", component: CadastroComponent},
   { path: "404", component: NotFoundComponent},
   { path: "**", redirectTo:"404" }

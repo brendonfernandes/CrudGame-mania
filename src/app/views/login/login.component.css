@@ -14,7 +14,6 @@ main {
     background-color: rgb(2, 1, 1);
     width: 100vw;
     height: 100vw;
-    padding: top 40px;
 }
 
 .bloco2 {
@@ -31,7 +30,6 @@ main {
 .bloco1 {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
 }
 
 input[type="password" i] {

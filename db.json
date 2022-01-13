@@ -1,79 +1,74 @@
 {
-  "users": [
-    {
-      "email": "Barbara@lorrane",
-      "password": "$2a$10$mTjYdeLB620gora2X03e3evOVtKCeXqsrzOcOWINxRus.DpAWD42e",
-      "id": 1
-    }
-  ],
-  "promocao": [
-    {
-      "id": 1,
-      "titulo": "valor1",
-      "descrição": "descrição da imagem 1"
-    },
-    {
-      "titulo": "valor2",
-      "descrição": "descrição da imagem 2",
-      "id": 2
-    },
-    {
-      "titulo": "valor3",
-      "descrição": "descrição da imagem 3",
-      "id": 3
-    },
-    {
-      "titulo": "valor4",
-      "descrição": "descrição da imagem 4",
-      "id": 4
-    },
-    {
-      "titulo": "valor5",
-      "descrição": "descrição da imagem 5",
-      "id": 5
-    },
-    {
-      "titulo": "valor6",
-      "descrição": "descrição da imagem 6",
-      "id": 6
-    },
-    {
-      "titulo": "valor7",
-      "descrição": "descrição da imagem 7",
-      "id": 7
-    },
-    {
-      "titulo": "valor8",
-      "descrição": "descrição da imagem ",
-      "id": 8
-    },
-    {
-      "titulo": "valor5",
-      "descrição": "descrição da imagem 5",
-      "id": 9
-    },
-    {
-      "titulo": "valor9",
-      "descrição": "descrição da imagem 9",
-      "id": 10
-    },
-    {
-      "titulo": "valor9",
-      "descrição": "descrição da imagem 9",
-      "id": 11
-    },
-    {
-      "titulo": "valor9",
-      "descrição": "descrição da imagem 9",
-      "id": 12
-    }
-  ],
-  "Cadastro": [
-    {
-      "id": 1,
-      "nome": "Brendon",
-      "senha": "12345678",
-      "email": "Brendo@123.com"
-    }
-  ]
+    "users": [{
+        "email": "Barbara@lorrane",
+        "password": "$2a$10$mTjYdeLB620gora2X03e3evOVtKCeXqsrzOcOWINxRus.DpAWD42e",
+        "id": 1
+    }],
+    "promocao": [{
+            "id": 1,
+            "titulo": "valor1",
+            "descrição": "descrição da imagem 1"
+        },
+        {
+            "titulo": "valor2",
+            "descrição": "descrição da imagem 2",
+            "id": 2
+        },
+        {
+            "titulo": "valor3",
+            "descrição": "descrição da imagem 3",
+            "id": 3
+        },
+        {
+            "titulo": "valor4",
+            "descrição": "descrição da imagem 4",
+            "id": 4
+        },
+        {
+            "titulo": "valor5",
+            "descrição": "descrição da imagem 5",
+            "id": 5
+        },
+        {
+            "titulo": "valor6",
+            "descrição": "descrição da imagem 6",
+            "id": 6
+        },
+        {
+            "titulo": "valor7",
+            "descrição": "descrição da imagem 7",
+            "id": 7
+        },
+        {
+            "titulo": "valor8",
+            "descrição": "descrição da imagem ",
+            "id": 8
+        },
+        {
+            "titulo": "valor5",
+            "descrição": "descrição da imagem 5",
+            "id": 9
+        },
+        {
+            "titulo": "valor9",
+            "descrição": "descrição da imagem 9",
+            "id": 10
+        },
+        {
+            "titulo": "valor9",
+            "descrição": "descrição da imagem 9",
+            "id": 11
+        },
+        {
+            "titulo": "valor9",
+            "descrição": "descrição da imagem 9",
+            "id": 12
+        }
+    ],
+    "Cadastro": [{
+        "id": 1,
+        "nome": "Brendon",
+        "senha": "12345678",
+        "email": "Brendo@123.com"
+    }]
 }
