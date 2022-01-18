@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Cadastro } from 'src/app/models/cadastro';
+import { Login } from 'src/app/models/login';
 import { CadastroService } from 'src/app/services/cadastro.service';
 import { Router } from '@angular/router';
 
@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./cadastro.component.css']
 })
 export class CadastroComponent implements OnInit {
-  cadastro: Cadastro = {
+  cadastro: Login = {
   }
 
   constructor (private cadastroService: CadastroService, private router: Router) {
@@ -25,12 +25,17 @@ export class CadastroComponent implements OnInit {
 
 
   createCadastro(): void{
+    
     this.cadastroService.create(this.cadastro).subscribe ((response) =>{
       this.mensagem = "Usuário Cadastrado!"
-    })
+      this.router.navigateByUrl('');
+
+    }, (error) => {
+      this.mensagem = error.error;
+    } )
   }
   deletarCadastro(): void{
-    this.router.navigate([''])
+    this.router.navigate(['/login/users'])
   }
   tabelasCadastro(): void{
     this.router.navigate(['/cadastro/tabela'])

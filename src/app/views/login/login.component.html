@@ -1,12 +1,14 @@
 <main>
+    <div class="logo">
+        <img class="imagem" src=" assets/Logo.svg " alt="Logo Game mania ">
+    </div>
     <div class="bloco1">
-
         <div class="bloco2">
 
             <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
                 <div class="campo-label">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Ex.: email@email.com" [(ngModel)]="loginModel.email" equired>
+                    <input type="email" name="email" id="email" placeholder="Ex.: email@email.com" [(ngModel)]="loginModel.email" required>
                 </div>
                 <div class="campo-label">
                     <label for="senha">Senha</label>
@@ -14,13 +16,13 @@
                 </div>
                 <div class="botaoiniciar">
                     <button id="login" type=" submit ">Fazer Login</button>
-                    <a routerLink="Cadastro" class="cadastro">Cadastrar</a>
+                    <a routerLink="cadastro" class="cadastro">Cadastrar</a>
+                </div>
+                <div class="error-validação">
+                    <p *ngIf="mensagem != '' ">{{mensagem}}</p>
                 </div>
             </form>
         </div>
-    </div>
-    <div class="error-validação">
-        <p *ngIf="mensagem != '' ">{{mensagem}}</p>
     </div>
 
 </main>

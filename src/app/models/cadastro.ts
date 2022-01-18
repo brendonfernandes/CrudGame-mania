@@ -1,4 +1,4 @@
-export interface Cadastro {
+export interface Login {
     id?:number;
     usuario?: string;
     password?: string;

@@ -11,25 +11,41 @@
 }
 
 main {
-    background-color: rgb(2, 1, 1);
-    width: 100vw;
-    height: 100vw;
+    background-image: linear-gradient(to bottom, rgba(2, 1, 1, 0.89), #1313a5ca);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    width: 100vh;
 }
 
 .bloco2 {
-    width: 100vh;
-    height: 50vh;
-    background-color: #444;
+    width: 50vw;
+    height: 40vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 2px solid rgb(228, 221, 221);
 }
 
 .bloco1 {
+    height: 40vw;
     display: flex;
     justify-content: center;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-color: #1acaff;
 }
 
 input[type="password" i] {
@@ -39,22 +55,26 @@ input[type="password" i] {
 }
 
 input[type="email" i] {
+    width: 60vh;
     border-radius: 3px;
     padding: 8px;
-    width: 60vh;
 }
 
 #login {
     width: 40vh;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
     justify-content: center;
     display: flex;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
 
 .botaoiniciar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     width: 65vh;
     height: 10vh;
     align-items: center;
@@ -62,16 +82,17 @@ input[type="email" i] {
 }
 
 .cadastro {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-decoration: underline blue;
-    color: blue;
+    text-decoration: none;
+    background-color: black;
     padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 20vh;
+    text-align: center;
 }
 
 .error-validação {
-    color: red;
+    color: rgba(255, 60, 0, 0.849);
     font-size: 1em;
     justify-content: center;
     display: flex;
